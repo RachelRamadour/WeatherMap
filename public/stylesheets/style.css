@@ -1,0 +1,128 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #4b358a;
+}
+
+
+.empty {
+  font-size: 16px;
+  color:#4b358a;
+}
+
+.logout {
+  margin-left: auto;
+  margin-right: 15px;
+}
+
+
+
+.home {
+  background-image: url('../images/bubbles.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  color: #4b358a;
+  text-shadow: 1px 1px 1px black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-info:hover, .btn-warning {
+  background-color: white;
+  border: 1px solid #4b358a;
+  color: #4b358a
+}
+
+.btn-info, .btn-warning:hover {
+  background-color: #4b358a;
+  border : lightgray 1px solid;
+  color: white;
+}
+
+
+
+.form-control {
+background-color:#4b358a;
+color: white;
+border : lightgray 1px solid;
+
+}
+.form-control:hover {
+  background-color: white;
+  color: #4b358a;
+  border: 1px solid #4b358a;
+
+  
+  }
+#form-blanc {
+  background-color: white;
+  color: #4b358a;
+  border: 1px solid #4b358a;
+
+}
+
+nav {
+  background-color: #4b358a;
+  height: auto;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navItem{
+  margin-bottom: 10px;
+}
+
+.get_started{
+  margin-bottom: 70px;
+}
+
+.header {
+  color: #FFFFFF;
+}
+
+.deletepicto{
+  color:#4b358a
+}
+.update-cities {
+color: #4b358a;
+margin: 15px;
+}
+
+#worldmap, #roadMap {
+height: 400px;
+}
+
+.linav {
+  list-style: none;
+  margin-top: 1O0px;
+  color: white;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+ .redirect, .logout {
+   color: white;
+ }
+
+ .redirect:hover, .logout:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+h1 {
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-shadow: 1px 1px 1px black;
+}
